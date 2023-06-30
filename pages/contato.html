@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        body {padding: 0px; margin: 0px; font-family: Arial, Helvetica, sans-serif;}
+        table{
+            width: 100%;
+            
+        }
+        table a {color: white;}
+        .active{
+            color: #ce3e05;
+        }
+
+        a:hover{
+            color: #ce3e05;
+            transition: linear 0.1s;
+}
+
+        a{
+            transition: linear 0.1s;
+        }
+    </style>
+    <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <!--Header-->
+		<table style="color: white;">
+			<tr>
+				<th style="background-color: #5b3281;">
+					<img src="../Imagens/pokebola.png" alt="Pokebola"> <br> <p><a  href="../index.html">Principal</a></p>
+				</th>
+
+				<th style="background-color: #ad7522;">
+					<img src="../Imagens/pokebola.png" alt="Pokebola"> <br> <p><a href="#">Mestres</a></p>
+				</th>
+
+				<th style="background-color: #07531a;">
+					<img src="../Imagens/pokebola.png" alt="Pokebola"> <br> <p><a href="../pokemons/pokemons.html">Pokémons</a></p>
+				</th>
+
+				<th style="background-color: #222bad;">
+					<img src="../Imagens/pokebola.png" alt="Pokebola"> <br> <p><a class="active" href="#">Contato</a></p>
+				</th>
+			</tr>
+		</table>
+
+        <h1 style="margin-left: 10px;">Contato:</h1>
+        <div style="text-align: center;">
+            <p>Telefone: <b><a href="#">(38) 99924 9842</a></b></p>
+            <p>Email: <b><a href="mailto:contato@pokedexcomunity.com">contato@pokedexcomunity.com</a></b></p>
+            
+            <p><a href="https://www.google.com/maps/place/Gouveia,+MG,+39120-000/data=!4m2!3m1!1s0xaed3975954bee9:0xc49cc35412d76e4e?sa=X&ved=2ahUKEwjFgYuSsdn_AhVoqZUCHQvHCw8Q8gF6BAgQEAI">Gouveia - MG</a></p>
+
+            <p>Nós somos alunos de uma escola situada em Gouveia,Minas Gerais e estamos trabalhando em um projeto no curso <br> de informatica com o intuito de melhorarmos o nosso conhecimento.</p>
+        </div>
+
+        <div style="text-align: center; margin: 50px;" class="form">
+            <img src="../Imagens/pokebola.png" alt="">
+            <b>
+                <p>Precisa de mais suporte?</p>
+            </b>
+            <p>Nome: </p>
+            <input maxlength="60" type="text" placeholder="Digite o seu nome ">
+            <p>Email: </p>
+            <input maxlength="60" type="email" placeholder="Digite o seu email">
+            <p>Mensagem:</p>
+            <input maxlength="350" type="text"  placeholder="Digite a sua Mensagem"> <br>
+            <input style="cursor: pointer; margin-top: 20px;" type="button" value="Enviar">
+        </div>
+
+</body>
+</html>

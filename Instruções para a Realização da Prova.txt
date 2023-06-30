@@ -1,0 +1,11 @@
+Prezado Aluno.
+Primeiramente, boa sorte para a realização da sua prova.
+
+1 - Tempo para a Realização da prova: 1 horário.
+
+
+Primeira Parte da Prova
+O Site que vocês irão Criar, devem seguir os seguintes padroes:
+1 - O Site necessita ter a primeira página chamada pokemon.html
+2 - O Title dessa página deve ser Pokémon
+4 - As Cores podem ser Alteradas. as cores do Site nao precisam ser realmente as mesmas.. pode ser uma variação, mas tem que seguir a mesma estrutura.

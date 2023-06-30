@@ -1,0 +1,22 @@
+header{
+    background-color: #372791;
+    height: 60px;
+}
+
+header img{
+    width: 25px;
+    margin-top: 18px;
+    margin-left: 10px ;
+}
+
+header #r_search{
+    border: none;
+    padding: 8px;
+    width: 40vw;
+    outline: none;
+    border-radius: 8px;
+    border: solid 1px #cacaca;
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+}

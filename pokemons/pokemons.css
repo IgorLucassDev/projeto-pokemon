@@ -1,0 +1,184 @@
+:root{
+    --pikachu: #ffb30f;
+    --charmander: #fd780c;
+    --bulbassauro: #0fff7b;
+    --squirtle: #0fe3ff;
+    --onix: #c4c4c4;
+    
+}
+
+/*Pokemons*/
+#pikachu:hover{
+    background-color: var(--pikachu);
+    transition: linear 0.2s;
+}
+#charmander:hover{
+    background-color: var(--charmander);
+    transition: linear 0.2s;
+}
+#bulbassauro:hover{
+    background-color: var(--bulbassauro);
+    transition: linear 0.2s;
+}
+#squirtle:hover{
+    background-color: var(--squirtle);
+    transition: linear 0.2s;
+}
+#onix:hover{
+    background-color: var(--onix);
+    transition: linear 0.2s;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    
+    text-align: center;
+    background-color: #372791;
+    padding: 50px;
+}
+/*Fim*/
+
+.search{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.search input{
+    margin-bottom: 40px;
+    padding: 12px;
+    width: 40vw;
+    outline: none;
+    border-radius: 8px;
+    border: solid 1px #cacaca;
+}
+
+.card{
+    box-shadow: 10px 2px 40px #0303035e;
+    background-color: #ffffff;
+    color: #272727;
+    margin: 20px;
+    padding: 12px;
+    text-align: center;
+    width: 230px;
+    height: 230px;
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 20px;
+    transition: linear 0.2s;
+    border: 1px solid #cacaca;
+    
+}
+
+.content{
+    display: flex;
+    
+}
+
+header{
+    display: none;
+}
+
+.content{
+    width: 100%;
+}
+
+
+
+
+@media only screen and (max-width:1215px){
+    .logo{
+        display: none;
+    }
+
+    .card{
+        font-size: 12px;
+        height: 160px;
+    }
+
+    .card img{
+        width: 60%;
+    }
+
+    #search{
+        display: none;
+    }
+
+    header{
+        display: block;
+    }
+
+    @media only screen and (max-width:1330px){
+        .card{
+            font-size: 12px;
+            height: 160px;
+        }
+    
+        .card img{
+            width: 60%;
+        }
+    }
+
+    @media only screen and (max-width:1042px){
+        .card{
+            font-size: 12px;
+            height: 160px;
+        }
+
+        .card p {
+            display: none;
+        }
+    
+        .card img{
+            width: 90%;
+        }
+    }
+
+    @media only screen and (max-width:1030px){
+        .card{
+            font-size: 12px;
+            height: 160px;
+        }
+
+        .card p ,.card h1{
+            display: none;
+        }
+    
+        .card img{
+            width: 100%;
+        }
+    }
+
+
+    @media only screen and (max-width:600px){
+        .content{
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+         text-align: center;
+         margin-top: 20px;
+        } 
+     
+        .content .card{
+         width: 80%;
+         height: 20%;
+         margin-left: auto;
+         margin-right: auto;
+        }
+     
+        
+        .card p ,.card h1{
+         display: block;
+         }
+     
+         .card img{
+         width: 60%;
+         }
+     }
+
+    
+}
